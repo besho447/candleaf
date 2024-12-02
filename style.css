@@ -1,0 +1,188 @@
+* {
+    margin: 0;
+    padding: 0;
+    --main-color: #56B280;
+    font-family: "Poppins", sans-serif;
+}
+button {
+    color: white;
+    background-color: var(--main-color);
+    border: 0;
+    padding: 15px 30px;
+    border-radius: 7px;
+}
+.heading {
+    color: #0B254B;
+    margin: auto;
+    text-align: center;
+    margin-top: 50px;
+    font-weight: normal;
+}
+.heading h2 {
+    font-size: 40px;
+    margin-bottom: 10px
+}
+a {
+    text-decoration: none;
+}
+.container {
+    margin: auto;
+    padding: 20px 40px;
+}
+/* Start Header */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo {
+    cursor: pointer;
+}
+.nav-menu a {
+    color: black;
+    margin-right: 60px;
+}
+.personal {
+    display: flex;
+    gap: 40px;
+}
+.personal i {
+    cursor: pointer;
+}
+/* End Header */
+/* Start Landing */
+.landing {
+    background-image: url('images/bg-image.png');
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-repeat: no-repeat;
+}
+.box {
+    background-color: rgba(246, 247, 249, 80%);
+    padding: 50px;
+    text-align: center;
+}
+.box span {
+    font-size: 40px;
+}
+.box p {
+    width: 70%;
+    margin: 30px auto;
+}
+/* End Landing */
+/* Start Products */
+.product-layout {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.product-layout .card {
+    margin: 30px;
+    box-shadow: 1px 4px 15px #ccc;
+    border-radius: 5px;
+}
+.product-layout .card img {
+    background-color: #f1f1f1;
+}
+.product-layout .card p,
+.product-layout .card span {
+    padding: 0 10px;
+}
+.product-layout span {
+    float: right;
+    font-weight: bold;
+    color: var(--main-color);
+}
+/* End Products */
+/* Start Benefits */
+.benefits-bg {
+    background-color: #F7F8FA;
+}
+.benefits {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 30px;
+}
+.benefits .lift-side h2 {
+    font-size: 40px;
+}
+.benefits .lift-side > p {
+    margin-bottom: 30px;
+    color: var(--main-color);
+}
+.benefits .lift-side .points {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+.benefits .lift-side button {
+    margin-top: 20px;
+}
+/* End Benefits */
+/* Start Testimonials */
+.testimonials {
+    background-color: rgba(86, 178, 128, 10%);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.testimonials .person {
+    background-color: white;
+    border-radius: 5px;
+    padding: 20px;
+    width: 26vw;
+    height: 250px;
+    text-align: center;
+}
+.testimonials .person p {
+    font-size: 19px;
+    margin: 10px 0;
+}
+.testimonials .person .name {
+    position: relative;
+    font-size: 19px;
+    color: rgba(0, 0, 0, 50%);
+}
+.testimonials .person .stars {
+    color: var(--main-color);
+}
+/* End Testimonials */
+/* Start Footer */
+.footer {
+    background-color: #272727;
+    color: white;
+}
+.foot {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 50px 0;
+}
+.foot .logo p {
+    width: 300px;
+}
+.footer-links {
+    display: flex;
+    gap: 50px;
+}
+.footer-links span {
+    color: var(--main-color);
+}
+.footer-links a {
+    display: block;
+    color: white;
+    padding: 10px 0;
+}
+.footer-links a:hover {
+    color: var(--main-color);
+}
+/* End Footer */

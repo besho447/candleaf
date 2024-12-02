@@ -1,0 +1,57 @@
+* {
+    font-family: "Roboto";
+    margin: 0;
+    padding: 0;
+}
+.container {
+    padding: 10px;
+    margin: 10px;
+}
+.shipping {
+    display: flex;
+    justify-content: center;
+}
+h2 {
+    margin-bottom: 10px;
+}
+.form-1 {
+    margin-bottom: 30px;
+}
+input,
+.input {
+    outline: none;
+    padding: 5px 10px;
+    border: solid #c2c2c2 1px;
+}
+.checkbox {
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.form-2 {
+    display: grid;
+    width: 75%;
+    gap: 10px;
+}
+.name {
+    display: flex;
+    justify-content: space-between;
+}
+.name input {
+    width: 50%;
+}
+.place {
+    display: flex;
+    gap: 10px;
+}
+.name input:nth-child(1){
+    margin-right: 10px;
+}
+.button {
+    background-color: #56B280;
+    color: white;
+    border: 0;
+    border-radius: 10px;
+    font-size: 20px;
+    padding: 8px 44px;
+}
